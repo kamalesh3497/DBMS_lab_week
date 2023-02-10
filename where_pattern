@@ -1,0 +1,16 @@
+mysql> select* from student;
++--------+----------+--------+
+| std_ID | std_name | std_no |
++--------+----------+--------+
+|    234 | krishna  |   8789 |
+|    345 | kamalesh |   6789 |
++--------+----------+--------+
+2 rows in set (0.00 sec)
+
+mysql> select* from student where std_name like '%a';
++--------+----------+--------+
+| std_ID | std_name | std_no |
++--------+----------+--------+
+|    234 | krishna  |   8789 |
++--------+----------+--------+
+1 row in set (0.02 sec)
